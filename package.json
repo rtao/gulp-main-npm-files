@@ -1,0 +1,31 @@
+{
+  "name": "gulp-main-npm-files",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtao/gulp-main-npm-files.git"
+  },
+  "author": "Ronald Tao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtao/gulp-main-npm-files/issues"
+  },
+  "homepage": "https://github.com/rtao/gulp-main-npm-files#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "npm-main-files": "^1.0.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3",
+    "stream-assert": "^2.0.3"
+  }
+}
